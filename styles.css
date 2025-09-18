@@ -1,15 +1,36 @@
 body {
-    background-color: brown; text-align: center; 
+    background-color: brown; 
+    text-align: center; 
+ }
 h1 {
-    text-align: center; color: aliceblue;
-}
-li {
-    text-align: center; font-size: large; font-style: normal; color: aliceblue;
-}
-ul {
-    text-align: center; color: aliceblue;
-    margin: 0 auto; width: fit-content; text-align: left;
+    text-align: center; 
+    color: aliceblue;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 h2 {
-    color: aliceblue; text-align: center;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+    font-size: large; 
+    font-style: normal;
+    color: aliceblue;
+}
+ul {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 auto; 
+    width: fit-content; 
+    text-align: left;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
 }
