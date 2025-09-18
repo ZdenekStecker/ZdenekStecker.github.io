@@ -1,0 +1,15 @@
+body {
+    background-color: brown; text-align: center; 
+h1 {
+    text-align: center; color: aliceblue;
+}
+li {
+    text-align: center; font-size: large; font-style: normal; color: aliceblue;
+}
+ul {
+    text-align: center; color: aliceblue;
+    margin: 0 auto; width: fit-content; text-align: left;
+}
+h2 {
+    color: aliceblue; text-align: center;
+}
