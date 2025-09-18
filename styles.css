@@ -1,36 +1,54 @@
 body {
-    background-color: brown; 
+    background-color: rgb(134, 196, 133); 
     text-align: center; 
- }
+}
+a {
+    color: red;
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: rgb(150, 24, 144);
+    border-radius: 15px;
+}
+a:hover{
+    color: pink;
+    background-color: blue;
+}
+img{
+    width: 300px;
+    border-radius: 15px;
+    border-bottom-color: rgb(6, 92, 52);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 h1 {
     text-align: center; 
-    color: aliceblue;
+    color: rgb(85, 80, 5);
     font-family: "Pirata One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 h2 {
-  font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
 }
 
 li {
     font-size: large; 
     font-style: normal;
-    color: aliceblue;
+    color: rgb(25, 5, 76);
 }
 ul {
     font-family: "Pirata One", system-ui;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: aliceblue;
+    color: rgb(112, 11, 33);
     margin: 0 auto; 
     width: fit-content; 
     text-align: left;
 }
 h2 {
-    color: aliceblue;
+    color: rgb(142, 18, 149);
     text-align: center;
 }
