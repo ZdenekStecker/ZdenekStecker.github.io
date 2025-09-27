@@ -77,35 +77,10 @@ h1.signature{
     min-width: 100px;
     text-align: center;
     margin-right: auto;
-    font-family: Papyrus, fantasy; font-size: 325%; font-style: normal; font-variant: normal; font-weight: 700; line-height: 0px; 
-    -webkit-text-stroke: 3px;
-    color: rgb(255, 255, 255);
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 60px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    -webkit-text-stroke: 1px ;
+    color: rgb(0, 0, 0);
     -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-span.textome{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 40%;
-    margin-right: auto;
-    font-size: 300%;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 0%;
-    letter-spacing: 0;
-    line-height: 1.2;
-    text-align: center;
-
-}
-span.textweb{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 43%;
-    font-size: 300%;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 0%;
-    letter-spacing: 0;
-    line-height: 1.5;
-    text-align: center;
-
 }
 p.textome{
     font-family: Arial, Helvetica, sans-serif;
@@ -121,26 +96,12 @@ p.textome{
     text-align: center;
    
 }
-span.textroblox{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 28%;
-    padding-right: 26.8%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 200%;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 0;
-    letter-spacing: 0;
-    word-spacing: 0;
-    line-height: 1.5;
-
-}
 h1.h1roblox{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3%;
     margin-right: 1%;
     font-size: 30px;
+    margin-top: auto;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 0;
@@ -148,6 +109,23 @@ h1.h1roblox{
     word-spacing: 0;
     line-height: 1.5;
     text-align: center;
+    
+    
+}
+h1.h1title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right:   auto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1;
+    text-align: center;
+    -webkit-text-stroke: #000000 6px;
     
     
 }
@@ -235,6 +213,23 @@ img.roblox1{
                      0px 5px 15px;
     size: absolute;
 }
+h1.h1title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right:   auto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1;
+    text-align: center;
+    -webkit-text-stroke: #000000 6px;
+    
+    
+}
 .topbar{
     max-width: 200px;
     min-width: 200px;
@@ -284,37 +279,12 @@ h1.signature{
     min-width: 100px;
     text-align: center;
     margin-right: auto;
-    font-family: Papyrus, fantasy; font-size: 325%; font-style: normal; font-variant: normal; font-weight: 700; line-height: 0px; 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 46px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
     -webkit-text-stroke: 3px;
     color: rgb(255, 255, 255);
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
-span.textome{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 32%;
-    margin-right: auto;
-    font-size: 300%;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 0%;
-    letter-spacing: 0;
-    line-height: 1.2;
-    text-align: center;
 
-}
-span.textweb{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 35%;
-    margin-right: 32.8%;
-    font-size: 300%;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 0%;
-    letter-spacing: 0;
-    line-height: 1.5;
-    text-align: center;
-
-}
 p.textome{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
