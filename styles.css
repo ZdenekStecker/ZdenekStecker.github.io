@@ -10,9 +10,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #222221;
-    border-radius: 2px;
+    border-radius: 15px;
     size: absolute;
-    box-shadow:  rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
 .container {
@@ -28,17 +28,19 @@ body {
     size: absolute;
 }
 .topbar{
-    max-width: 518px;
-    min-width: 518px;
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 150px;
+    min-height: 150px;
     margin-left: auto;
-    padding: 50px 40px;
     margin-right: auto;
+    padding: 50px 50px;
     margin-bottom: 3%;
     border-radius: 15px;
     box-shadow: rgb(255, 255, 255)
                      10px 20px 30px;
     background-color: #151312;
-    box-shadow:  rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     size: absolute;
     position: flex;
 }
@@ -46,22 +48,21 @@ button.topbuttons{
     min-width: 100px;
     max-width:300px;
     border-radius: 15px;
-    font-weight: bold;
-    background-color: #35302c;
-    font-size: x-large;
-    color: rgb(255, 255, 255);
+    gap: 2cm;
+    padding: 5px 5px;
+    margin-left: 30px;
     text-align: center;
-    padding: 10px 20px;
     margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border-color: none;
     border-width: 0%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-left: 1% auto;
-    margin-right: 1% auto;
-    box-shadow: none;
+    box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(121, 104, 104) 0px 0px 0px 3px;
     border-style: solid;
-    margin-left: 6%;
     size: absolute;
 }
 button.topbuttons:hover{
@@ -69,12 +70,9 @@ button.topbuttons:hover{
     color: #ffffff;
     cursor: pointer;
     box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
-    transform: translateY(-9px);
+    transform: translateY(-2px);
     background: transparent;
     
-}
-button.topbuttons:active{
-    transform: translateY(-1px);
 }
 h1.signature{
     margin-left: auto;
@@ -195,8 +193,7 @@ img.roblox1:hover{
 }
 
 h1.signature:hover{
-    transform: translateY(-9px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 600px) {
@@ -215,12 +212,12 @@ h1.signature:hover{
     background-color: #222221;
     border-radius: 2px;
     size: absolute;
-    box-shadow:  rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
 .container {
     max-width: 400px;
-    min-width: 350px;
+    min-width: 400px;
     margin-left: auto;
     margin-top: 10px;
     margin-right: auto;
@@ -248,8 +245,9 @@ h1.h1title{
     
 }
 .topbar{
-    max-width: 200px;
-    min-width: 200px;
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 100px;
     margin-left: auto;
     padding: 50px 40px;
     margin-right: auto;
@@ -258,7 +256,7 @@ h1.h1title{
     box-shadow: rgb(255, 255, 255)
                      10px 20px 30px;
     background-color: #151312;
-    box-shadow:  rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     size: absolute;
     position: flex;
 }
@@ -267,21 +265,28 @@ button.topbuttons{
     max-width:300px;
     border-radius: 15px;
     font-weight: bold;
-    background-color: #35302c;
-    font-size: x-large;
+    background-color: #000000;
+    font-size: 15px;
     color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 5px 5px;
     border-color: none;
     border-width: 0%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-left: 25%;
-    margin-right: 25% auto;
-    box-shadow: none;
+    box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(121, 104, 104) 0px 0px 0px 3px;
     border-style: solid;
     size: absolute;
+}
+#topbarbut1{
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+#topbarbut2{
+   margin-left: 5px ;
+   margin-right: auto;
+}
+#topbarbut3{
+   margin-left: 5px ;
+   margin-right: auto;
 }
 button.topbuttons:hover{
     background-color: #35302c;
