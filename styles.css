@@ -30,11 +30,10 @@ body {
 .topbar{
     max-width: 500px;
     min-width: 500px;
-    max-height: 150px;
-    min-height: 150px;
+    max-height: 100px;
+    min-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px 50px;
     margin-bottom: 3%;
     border-radius: 15px;
     box-shadow: rgb(255, 255, 255)
@@ -44,23 +43,67 @@ body {
     size: absolute;
     position: flex;
 }
+.signatureimgcontainer{
+    position :relative;
+    display: flex;
+    float: inline-start;
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 150px;
+    
+
+}
+.signatureimg{
+    max-width: 190px;
+    max-height: 150px;
+   
+}
+.signatureimg:hover{
+    transform: translateY(-2px);
+}
+.buttoncontainer1{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 205px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.buttoncontainer2{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 390px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.buttoncontainer3{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 button.topbuttons{
-    min-width: 100px;
-    max-width:300px;
     border-radius: 15px;
-    gap: 2cm;
-    padding: 5px 5px;
-    margin-left: 30px;
+    font-size: 20px;
+    min-width: 90px;
+    max-width: 90px;
     text-align: center;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 30px;
     font-weight: bold;
     background-color: #000000;
     color: rgb(255, 255, 255);
     border-color: none;
-    border-width: 0%;
     box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(121, 104, 104) 0px 0px 0px 3px;
     border-style: solid;
     size: absolute;
@@ -252,13 +295,58 @@ h1.h1title{
     padding: 50px 40px;
     margin-right: auto;
     margin-bottom: 3%;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: rgb(255, 255, 255)
                      10px 20px 30px;
     background-color: #151312;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     size: absolute;
     position: flex;
+}
+.signatureimgcontainer{
+    position :absolute;
+    float: inline-start;
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 0px;
+    
+
+}
+.signatureimg{
+    max-width: 190px;
+    max-height: 150px;
+   
+}
+.buttoncontainer1{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 195px;
+    margin-top: 0px;
+}
+.buttoncontainer2{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 190px;
+    margin-top: 45px;
+}
+.buttoncontainer3{
+    position :absolute;
+    display: flex;
+    float: inline-start;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin-left: 190px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 button.topbuttons{
     min-width: 100px;
