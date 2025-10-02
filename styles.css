@@ -293,6 +293,19 @@ h1.signature:hover{
     background-attachment: fixed;
     background-position: center;
 }
+#napoveda ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+    gap: 0px;
+}
+#napoveda ul li {
+    background-color: #4b4949;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 5px;
+}
 .textbox{
     max-width: 300px;
     min-width: 300px;
