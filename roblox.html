@@ -6,12 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zdenkovo Dobrodružství v Lue</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <niv id="napoveda">
+            <div class="divbar">
+                <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><a href="#topbarbut1">stránky</a></li>
+                    <li><a href="#content">Content</a></li>
+                    <li><a href="#logo">Logo</a></li>
+                </ul>
+            </div>
+        </niv>
      
         <div class="container">
             <div class="topbar">
-                <div class="signatureimgcontainer">
+                <div class="signatureimgcontainer" id="logo">
                     <img  src="signature_png_web_img.png" class="signatureimg">
                 </div>
             <div class="buttoncontainer1">
@@ -25,7 +37,7 @@
             </div>
         </div>
             <div class="textbox">
-                <h1 class="h1title">Lua</h1>
+                <h1 class="h1title" id="content">Lua</h1>
                 <h1 class = "h1roblox">Moje první minihra</h1>
                 <p class="textroblox">Moje první minihra byla jak už se dalo čekat klikačka typu simulator, zde jsem zkoušel jak fungují client side scripty a server side scripty a studoval funkce.</p>
                 <img class= "roblox1" src="robloxminigame1.png">
