@@ -29,16 +29,22 @@ body {
     list-style: none;
     align-items: center;
     gap: 120px;
+    padding-left: 0px;
+   
 }
 #napoveda ul li {
-    background-color: #4b4949;
+    background-color: #111111;
     border-radius: 5px;
-    padding: 30px;
-    margin: 0 20px;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 0px;
+    
 }
 #napoveda ul li:hover {
-    background-color: #515250;
+    background-color: #242424;
     border-radius: 5px;
+    transform: scale(1.3);
 }
 
 .textbox{
@@ -46,6 +52,7 @@ body {
     border-color: #000000;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
     background-color: #222221;
     border-radius: 15px;
     size: absolute;
@@ -151,7 +158,7 @@ button.topbuttons:hover{
     cursor: pointer;
     box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
     transform: translateY(-2px);
-    background: transparent;
+    
     
 }
 h1.signature{
@@ -236,41 +243,89 @@ p.textroblox{
     margin-right: 35px;
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #fff8f8;
     letter-spacing: 0;
     word-spacing: 0;
     line-height: 1.1;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    background-color: #35302c;
     border-radius: 2px;
     text-align: center;
 }
-img.skolaimg{
-    margin-left: 5%;
+.skolacontainer{
+    display: flex;
+    width: 250px;
+    margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+img.skolaimg{
+    width: 100%;
     border-radius: 10px;
     border-color: #000000;
-    box-shadow: rgb(167, 166, 166) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
-    text-align: center;
 }
 img.skolaimg:hover{
-    box-shadow: rgba(167, 166, 166, 0.198) 2px 3px 6px, rgba(255, 255, 255, 0.908)  2px 3px 6px 2px;
+    transform: scale(1.1);
+    border-radius: 15px;
+    
 }
+.robloxphotoscontainer{
+    display: absolute;
+    height: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(255, 254, 254);
+}
+.roblox2{
+    display: absolute;
+    position: flex;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 10px 20px 30px;
+}
+.roblox2:hover{
+    transform: scale(1.03);
+}
+.codecontainer{
+    display: flex;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(255, 254, 254);
+}
+
 img.roblox1{
     margin-left: 5%;
     margin-right: auto;
     width: 90%;
     height: 90%;
     border-radius: 10px;
-    border-color: #000000;
     margin-top: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    box-shadow: rgb(178, 170, 170) 0px 0px 10px;
     text-align: center;
 }
 img.roblox1:hover{
-    box-shadow: rgba(167, 166, 166, 0.198) 2px 3px 6px, rgba(255, 255, 255, 0.908)  2px 3px 6px 2px;
+    transform: scale(1.03);
 }
 
 h1.signature:hover{
@@ -286,7 +341,7 @@ h1.signature:hover{
 }
     
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     body {
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
@@ -298,17 +353,20 @@ h1.signature:hover{
     list-style: none;
     align-items: center;
     margin-left: auto;
-    gap: 0px;
+    gap: 35px;
 }
 #napoveda ul li {
-    background-color: #4b4949;
+    background-color: #111111;
     border-radius: 5px;
     padding: 15px;
-    margin: 0 5px;
+    width: 100px;
+    text-align: center;
+
 }
 .textbox{
-    max-width: 300px;
+    max-width: 500px;
     min-width: 300px;
+    margin-top: 50px;
     border-color: #000000;
     margin-left: auto;
     margin-right: auto;
@@ -524,12 +582,11 @@ h1.h1roblox{
     margin-right: 35px;
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #fff8f8;
     letter-spacing: 0;
     word-spacing: 0;
     line-height: 1.1;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    background-color: #35302c;
     border-radius: 2px;
     text-align: center;
     }
@@ -555,4 +612,30 @@ h1.h1roblox{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     text-align: center;
     }
+    .robloxphotoscontainer{
+    display: absolute;
+    height: 350px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(255, 254, 254);
+}
+.roblox2{
+    display: absolute;
+    position: flex;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+    margin: 0px 0px 10px 12px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 10px 20px 30px;
+}
+.roblox2:hover{
+    transform: scale(1.03);
+}
 }
