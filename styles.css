@@ -5,6 +5,27 @@ body {
     background-position: center;
     margin: 0, 0, 0, 0;
 }
+footer{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+#footerbar{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.test{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #napoveda {
     background-color: #111111;
     color: white;
@@ -299,13 +320,20 @@ img.roblox1:hover{
     
 }
 .logocontainer{
-    margin-left: 0;
-    margin-right: 150px;
+    margin-left: 0; 
     margin-bottom: 100px;
     max-height: 50px;
     padding: 0px 0px 0px 0px;
     position :flex;
     inset-block-start: 0px;
+    display: none;
+}
+.signatureimg{
+    max-width: 190px;
+    max-height: 150px;
+    padding: 0px 0px 0px 0px;
+    position :absolute;
+    display: none;
 }
 .textbox{
     border-width: 50%;
@@ -383,11 +411,17 @@ img.roblox1:hover{
 #napoveda ul li {
     background-color: #111111;
     border-radius: 5px;
-    width: 0px;
+    padding: 15px;
+    width: 90px;
     text-align: center;
-    padding: 5px;
-    margin-left: 0px;
     
+
+}
+.textodkaz{
+    display: none;
+}
+.ikona{
+    font-size: 2rem;
 }
 #napoveda ul li:hover {
     background-color: #111111;
@@ -416,14 +450,7 @@ img.roblox1:hover{
     margin-left: auto;
     gap: 35px;
 }
-#napoveda ul li {
-    background-color: #111111;
-    border-radius: 5px;
-    padding: 15px;
-    width: 100px;
-    text-align: center;
 
-}
 .textbox{
     max-width: 500px;
     min-width: 300px;
@@ -467,12 +494,15 @@ h1.h1title{
     
 }
 .logocontainer{
-    margin-left: 0;
+    margin-left: 0px;
+    padding-left: 0px;
+    max-width:  50px;
     margin-right: 150px;
     margin-bottom: 100px;
     max-height: 50px;
     padding: 0px 0px 0px 0px;
     position :flex;
+    display: none;
     inset-block-start: 0px;
 }
 .topbar{
@@ -491,20 +521,7 @@ h1.h1title{
     size: absolute;
     position: flex;
 }
-.signatureimgcontainer{
-    position :absolute;
-    float: inline-start;
-    max-width: 150px;
-    max-height: 100px;
-    margin-left: 0px;
-    
 
-}
-.signatureimg{
-    max-width: 190px;
-    max-height: 150px;
-   
-}
 
 h1.signature{
     margin-left: auto;
