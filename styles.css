@@ -1,0 +1,50 @@
+body{
+    background-color: cornsilk;
+}
+header{
+    background-color: brown;
+    border-radius: 12px;
+    height: 4rem;
+}
+
+.nav-list{
+display: flex;
+justify-content: flex;
+position: fixed;
+align-self:flex-start;
+width: 100%;
+border-radius: 12px;
+gap: 3rem;
+margin: auto, auto, auto, auto;
+
+}
+.headerli{
+    background-color:brown;
+    list-style: none;
+    font-size: 2rem;
+}
+.headerlilinks{
+    color: aliceblue;
+    border-radius: 12px;
+    text-decoration: none;
+    height: 4rem;
+}
+
+#welcome-section{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: rgb(67, 39, 39);
+    height: 20rem;
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(244, 73, 0);
+    font-size: 3rem;
+}
+p{
+    text-align: center;
+    color: rgb(200, 90, 43);
+    font-size: 2rem;
+}
