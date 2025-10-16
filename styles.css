@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    margin: 0, 0, 0, 0;
+    margin: 0 0 0 0;
 }
 footer{
     background-color: #111111;
@@ -43,7 +43,6 @@ footer{
     text-decoration: none;
 }
 .divbar {
-    display: absolute;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
@@ -53,7 +52,6 @@ footer{
     margin-bottom: 100px;
     max-height: 50px;
     padding: 0px 0px 0px 0px;
-    position :flex;
     inset-block-start: 0px;
 }
 .signatureimg{
@@ -86,7 +84,6 @@ footer{
 }
 
 .textbox{
-    border-width: 50%;
     max-width: 1200px;
     border-color: #000000;
     margin-top: 30px;
@@ -95,7 +92,6 @@ footer{
     align-items: center;
     background-color: #222221;
     border-radius: 15px;
-    size: absolute;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
@@ -109,8 +105,6 @@ footer{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
-    size: absolute;
-    position: flex;
 }
 .topbar{
     max-width: 500px;
@@ -120,7 +114,6 @@ footer{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    position: flex;
     border-radius: 15px;
     box-shadow: rgb(255, 255, 255)
                      10px 20px 30px;
@@ -233,7 +226,6 @@ img.skolaimg:hover{
     
 }
 .robloxphotoscontainer{
-    display: absolute;
     height: 700px;
     align-items: center;
     margin-left: 140px;
@@ -243,11 +235,9 @@ img.skolaimg:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: rgb(255, 254, 254);
+    
 }
 .roblox2{
-    display: absolute;
-    position: flex;
     align-items: center;
     width: 400px;
     height: 220px;
@@ -261,8 +251,6 @@ img.skolaimg:hover{
     transform: scale(1.03);
 }
 .codecontainer{
-    display: flex;
-
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -271,7 +259,6 @@ img.skolaimg:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: rgb(255, 254, 254);
 }
 
 img.web1{
@@ -297,7 +284,6 @@ img.roblox1:hover{
     
 }
 .divbar {
-    display: absolute;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
@@ -324,19 +310,17 @@ img.roblox1:hover{
     margin-bottom: 100px;
     max-height: 50px;
     padding: 0px 0px 0px 0px;
-    position :flex;
     inset-block-start: 0px;
     display: none;
 }
+
 .signatureimg{
     max-width: 190px;
     max-height: 150px;
     padding: 0px 0px 0px 0px;
-    position :absolute;
     display: none;
 }
 .textbox{
-    border-width: 50%;
     max-width: 700px;
     border-color: #000000;
     margin-top: 30px;
@@ -346,7 +330,6 @@ img.roblox1:hover{
     align-items: center;
     background-color: #222221;
     border-radius: 15px;
-    size: absolute;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
@@ -360,12 +343,10 @@ img.roblox1:hover{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
-    size: absolute;
-    position: flex;
+
 }
 
     .robloxphotoscontainer{
-    display: absolute;
     height: 350px;
     align-items: center;
     margin-left: 30px;
@@ -375,11 +356,9 @@ img.roblox1:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: rgb(255, 254, 254);
+    
 }
 .roblox2{
-    display: absolute;
-    position: flex;
     align-items: center;
     width: 300px;
     height: 150px;
@@ -429,7 +408,6 @@ img.roblox1:hover{
     transform: none;
 }
 .textbox{
-    border-width: 50%;
     max-width: 700px;
     border-color: #000000;
     margin-top: 30px;
@@ -439,7 +417,6 @@ img.roblox1:hover{
     align-items: center;
     background-color: #222221;
     border-radius: 15px;
-    size: absolute;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
@@ -460,7 +437,6 @@ img.roblox1:hover{
     margin-right: auto;
     background-color: #222221;
     border-radius: 2px;
-    size: absolute;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
     background-color: #35302c;
 }
@@ -474,7 +450,6 @@ img.roblox1:hover{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
-    size: absolute;
 }
 h1.h1title{
     font-family: Arial, Helvetica, sans-serif;
@@ -501,7 +476,6 @@ h1.h1title{
     margin-bottom: 100px;
     max-height: 50px;
     padding: 0px 0px 0px 0px;
-    position :flex;
     display: none;
     inset-block-start: 0px;
 }
@@ -518,8 +492,6 @@ h1.h1title{
                      10px 20px 30px;
     background-color: #151312;
     box-shadow: rgb(68, 67, 67) 0px 1px 2px, rgb(121, 104, 104) 1px 2px 3px 5px;
-    size: absolute;
-    position: flex;
 }
 
 
@@ -619,7 +591,6 @@ h1.h1roblox{
     text-align: center;
     }
     .robloxphotoscontainer{
-    display: absolute;
     height: 350px;
     align-items: center;
     margin-left: auto;
@@ -629,11 +600,8 @@ h1.h1roblox{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: rgb(255, 254, 254);
 }
 .roblox2{
-    display: absolute;
-    position: flex;
     align-items: center;
     width: 180px;
     height: 100px;
