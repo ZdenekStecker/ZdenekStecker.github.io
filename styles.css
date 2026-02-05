@@ -115,6 +115,7 @@ padding-bottom: 0rem;
     background-color: rgb(17, 16, 13);
     height: 400px;
     background: #111;
+    transition: box-shadow 1s ease-in-out;
     
 }
 .webimg{
@@ -140,6 +141,7 @@ padding-bottom: 0rem;
     transform: scaleY(1.02);
     transition: transform 0.2s;
     cursor: pointer;
+    transition: box-shadow 1s ease-in-out;
 }
 
 .tileslinks{
