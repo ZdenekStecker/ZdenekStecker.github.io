@@ -28,7 +28,7 @@ function colorwawe() {
     // start second wave ONCE
     if (index === indexpoint && !wave2Started) {
         wave2Started = true;
-        setInterval(colorwawe2, 300);
+        setInterval(colorwawe2, 200);
     }
 }
 
@@ -47,4 +47,4 @@ function colorwawe2() {
     index2 = (index2 + 1) % tilesArray.length;
 }
 
-setInterval(colorwawe, 300);
+setInterval(colorwawe, 200);
